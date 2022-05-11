@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import MealList from "./MealList";
+import SimpleBottomNavigation from './components/SimpleBottomNavigation';
+import foodBackground from "./components/video/foodBackground.mp4"
+
 
 const mealKey = '4d3f246f2f71445ea8ca44032ed321c2'
 
@@ -28,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Meal Plan Magee</h1>
+      <h1 className="main">Meal Plan Magee</h1>
       <section className="controls">
         <input 
         type="number"
@@ -37,6 +40,21 @@ function App() {
       </section>
       <button onClick={getMealData}>Get Daily Meal Plan</button>
       {mealData && <MealList mealData={mealData} />}
+      <video autoPlay loop muted
+        style={{
+          position: "fixed",
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: "-1"
+
+
+        }}
+        
+      >
+        <source src={foodBackground} type="video/mp4" />
+      </video>
+      <SimpleBottomNavigation />
     </div>
   );
 }

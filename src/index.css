@@ -5,13 +5,22 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f3f3f3;
 }
 
 .App {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+h1.main {
+  font-family: "Roboto", sans-serif;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  border-style: double;
+  background-color: green;
 }
 
 h1 {
@@ -83,11 +92,14 @@ img {
 
 article {
   display: flex;
+  color: black;
+  background-color: white;
   flex-direction: column;
   padding: 2rem;
   margin: 0 1rem;
   max-width: 18rem;
   box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+  border: 1px solid black;
 }
 
 .instructions {
