@@ -26,6 +26,8 @@ h1.main {
 h1 {
   font-family: "Roboto", sans-serif;
   color: red;
+  background-color: white;
+  border: 1px solid black;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -79,6 +81,9 @@ main {
 
 ul {
   list-style: none;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
 }
 
 .meals {
