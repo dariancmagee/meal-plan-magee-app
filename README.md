@@ -1,4 +1,5 @@
 Meal-Plan-Magee 🥪
+
 Description:
 
 Meal Plan Magee is a React responsive app that lets a user randomly populate daily meal plans based on desired calories.
