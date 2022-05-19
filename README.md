@@ -11,6 +11,7 @@ Once the meals populate the user can then either change meals if they don't like
 Technologies Used:
 
 React, JavaScript, HTML, CSS, Material UI
+
 Other Dev Tools and models:
 
 API:
