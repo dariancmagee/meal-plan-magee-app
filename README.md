@@ -12,7 +12,9 @@ Technologies Used:
 
 React, JavaScript, HTML, CSS, Material UI
 
-Other Dev Tools and models:
+Deployed App:
+
+https://meal-plan-magee.netlify.app/
 
 API:
 
