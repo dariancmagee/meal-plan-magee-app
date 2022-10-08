@@ -13,11 +13,9 @@ Technologies Used:
 React, JavaScript, HTML, CSS, Material UI
 
 Deployed App:
-
 https://meal-plan-magee.netlify.app/
 
 API:
-
 https://spoonacular.com/food-api
 
 Contributor:
